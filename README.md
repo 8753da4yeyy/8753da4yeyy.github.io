@@ -1,6 +1,6 @@
 # 8753da4yeyy.github.io
 
-# Email: navas.allen@yahoo.com.
+# Email: anavas@my.waketech.edu
 
 # Description of GitHub account: 
 # My account is made for my assignment and it will be a place
