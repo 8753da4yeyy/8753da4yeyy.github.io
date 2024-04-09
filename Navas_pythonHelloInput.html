@@ -2,7 +2,7 @@
 <html lang = "en">
 	<head>
 		<link rel = "stylesheet" href = "https://pyscript.net/latest/pyscript.css"/>
-		<script defer src = "https://pyscipt.net/latest/pyscript.js"> </script>
+		<script defer src = "https://pyscript.net/latest/pyscript.js"> </script>
 		<style>
 		label
 		{
@@ -12,15 +12,25 @@
 	</head>
 	<body>
 		<form>
-			<label for = "operandOne"> x:</label> <input name = "operandOne" id = "operandOne" value = "10">
-			<label for = "total"> Result: </label> <div name = "total" id = "total"> </div>
+			<label 
+			for = "operandOne"> 
+			x:
+			<input id = "operandOne">
+			</label> 
+			
+			<label for = "total"> 
+			Result:
+			<input name = "operandOne" id = "operandOne" value = "10">
+			</label> 
+			
+			<div name = "total" id = "total"> </div>
 			
 		</form>
 		<py-script>
-		user_input = input("x:")
-		result = user_input + value
-		print("Result: ")
-		print(result)
+		input_box = Element("operandOne")
+		operandOne = float(input_box.value)
+		result = Element("total")
+		result.write("Hello! The input says:" + str(operandOne))
 		</py-script>
 	</body>
 </html>
