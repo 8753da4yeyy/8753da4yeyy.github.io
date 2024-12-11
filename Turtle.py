@@ -1,5 +1,7 @@
 """
-This file named 'turtle.py' is an example of using turtle graphics in Python.
+Author: Allen Navas
+Creation: 09/2024
+Purpose: This file named 'turtle.py' is an example of using turtle graphics in Python.
 """
 
 import turtle, sys
