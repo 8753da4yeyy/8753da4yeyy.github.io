@@ -1,7 +1,7 @@
 """
 Author: Allen Navas
-
-Using the Turtle module. The code below it is a simple snake game to extend the usage of the Turtle module.
+Creation: 08/2024
+Purpose: Using the Turtle module. The code below it is a simple snake game to extend the usage of the Turtle module.
 """
 
 import turtle, sys
