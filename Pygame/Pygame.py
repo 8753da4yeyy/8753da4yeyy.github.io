@@ -1,5 +1,7 @@
 """
-This program will be using the pygame module. It will be used to display images on the screen and also change the icon of the program.
+Author: Allen Navas
+Creation: 08/2024
+Purpose: This program will be using the pygame module. It will be used to display images on the screen and also change the icon of the program.
 Which will be monkey faces.
 """
 import pygame, sys
