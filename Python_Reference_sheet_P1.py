@@ -14,7 +14,7 @@ as other things Python allows the user to do.
 """ - Triple quotations are used to also make comments, but to comment out more than one line and end with another triple quotation.
 """ 
 
-# Data tyoes
+# Data types
 """
 # int - int(integer) is used for single digit variables
 Example:
@@ -162,7 +162,7 @@ Example:
 """
 if x == 0:
     print("X is 0")
- elif x < 1:
+elif x < 1:
     print("X is 0")
 """
 See what I mean? Not only did the first condition check is x is equal to 0, NOW with elif it checks if x is not greater than 1. Still giving the same output 'X is 0'.
@@ -233,3 +233,4 @@ while userinput != "q":
 In the example above, first the user will be asked to input a letter. Then the loop begins by checking the 'sentinal', as long as the user DOES NOT input 'q' the loop will continue. 
 
 This concludes Part 1 of my Reference sheet.
+"""
